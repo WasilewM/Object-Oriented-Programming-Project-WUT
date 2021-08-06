@@ -1,0 +1,457 @@
+-----------------------------------
+LOADING AIRCRAFTS
+-----------------------------------
+LOADED AIRCRAFT
+abc Num: 123
+Number of eco seats: 50
+Number of business seats: 10
+
+
+LOADED AIRCRAFT
+Boink Num: 12
+Number of eco seats: 120
+Number of business seats: 20
+
+
+LOADED AIRCRAFT
+Tu-154M Num: 101
+Number of eco seats: 60
+Number of business seats: 40
+
+
+LOADED AIRCRAFT
+Orzel Num: 1
+Number of eco seats: 3
+Number of business seats: 0
+
+
+LOADED AIRCRAFT
+Flamingo Num: 77
+Number of eco seats: 2
+Number of business seats: 0
+
+
+
+-----------------------------------
+LOADING CREW MEMBERS
+-----------------------------------
+LOADED CREW MEMBER
+captain FNAME LNAME
+ID: 55 Age: 10
+
+
+LOADED CREW MEMBER
+captain FNAME LNAME
+ID: 65 Age: 16
+
+
+LOADED CREW MEMBER
+pilot Adam Siadam
+ID: 77 Age: 10
+
+
+LOADED CREW MEMBER
+INVALID_DATA Bozena Klopotek
+ID: 10 Age: 30
+
+
+LOADED CREW MEMBER
+INVALID_DATA Wsciekly Waz
+ID: 11 Age: 35
+
+
+LOADED CREW MEMBER
+INVALID_DATA Tytanowy Janusz
+ID: 12 Age: 32
+
+
+
+-----------------------------------
+LOADING FLIGHTS
+-----------------------------------
+LOADED FLIGHT
+FLIGHT PARAMETERS:
+FLIGHT NUMBER: 11
+DEPARTURE TIME: 2000.01.01-10:00:00
+DEPARTURE PLACE: RADOM
+LANDING TIME: 2000.01.01-11:00:00
+DESTINATION: BRZYDGOSZCZ
+BUSINESS SEATS NUMBER: 20
+BUSINESS SEAT PRICE: 300
+ECO SEATS NUMBER: 120
+ECO SEAT PRICE: 0
+
+
+LOADED FLIGHT
+FLIGHT PARAMETERS:
+FLIGHT NUMBER: 112
+DEPARTURE TIME: 2000.01.02-10:00:00
+DEPARTURE PLACE: RADOM
+LANDING TIME: 2000.01.02-11:00:00
+DESTINATION: BRZYDGOSZCZ
+BUSINESS SEATS NUMBER: 0
+BUSINESS SEAT PRICE: 300
+ECO SEATS NUMBER: 2
+ECO SEAT PRICE: 130
+
+
+LOADED FLIGHT
+FLIGHT PARAMETERS:
+FLIGHT NUMBER: 311
+DEPARTURE TIME: 2000.01.03-11:00:00
+DEPARTURE PLACE: RZESZOW
+LANDING TIME: 2000.01.03-14:00:00
+DESTINATION: WARSAW
+BUSINESS SEATS NUMBER: 0
+BUSINESS SEAT PRICE: 0
+ECO SEATS NUMBER: 2
+ECO SEAT PRICE: 50
+
+
+LOADED FLIGHT
+FLIGHT PARAMETERS:
+FLIGHT NUMBER: 2
+DEPARTURE TIME: 2000.01.04-15:30:00
+DEPARTURE PLACE: RZESZOW
+LANDING TIME: 2000.01.04-17:00:00
+DESTINATION: CRACOW
+BUSINESS SEATS NUMBER: 0
+BUSINESS SEAT PRICE: 300
+ECO SEATS NUMBER: 3
+ECO SEAT PRICE: 130
+
+
+LOADED FLIGHT
+FLIGHT PARAMETERS:
+FLIGHT NUMBER: 1
+DEPARTURE TIME: 2000.01.09-15:30:00
+DEPARTURE PLACE: WARSAW
+LANDING TIME: 2000.01.09-17:00:00
+DESTINATION: BEKAS
+BUSINESS SEATS NUMBER: 40
+BUSINESS SEAT PRICE: 10
+ECO SEATS NUMBER: 60
+ECO SEAT PRICE: 5
+
+
+
+-----------------------------------
+LOADING PASSENGERS
+-----------------------------------
+LOADED PASSENGER
+PASSENGER DATA:
+name surname; ID: 1 Age: 10
+FLGIHT NUM: 11; CLASS: Business
+Place number: 1
+Suitcase weight: 0; Carry on weight: 0
+
+
+Seat reserved
+-----------------------------------
+BOARDING PASS
+PASSENGER ID: 1
+FLIGHT NUMBER: 11
+SEAT CLASS: business class
+SEAT NUMBER: 1
+GATE NUMBER: 1
+
+-----------------------------------
+LOADED PASSENGER
+PASSENGER DATA:
+Jan Kowalski; ID: 2 Age: 10
+FLGIHT NUM: 11; CLASS: Economic
+Place number: 12
+Suitcase weight: 0; Carry on weight: 0
+
+
+Seat reserved
+-----------------------------------
+BOARDING PASS
+PASSENGER ID: 2
+FLIGHT NUMBER: 11
+SEAT CLASS: eco class
+SEAT NUMBER: 12
+GATE NUMBER: 1
+
+-----------------------------------
+LOADED PASSENGER
+PASSENGER DATA:
+Bogdan Ochroniarz; ID: 3 Age: 30
+FLGIHT NUM: 311; CLASS: Business
+Place number: 2
+Suitcase weight: 0; Carry on weight: 0
+
+
+LOADED PASSENGER
+PASSENGER DATA:
+Kapitan Bomba; ID: 4 Age: 33
+FLGIHT NUM: 1; CLASS: Economic
+Place number: 1
+Suitcase weight: 0; Carry on weight: 0
+
+
+Seat reserved
+-----------------------------------
+BOARDING PASS
+PASSENGER ID: 4
+FLIGHT NUMBER: 1
+SEAT CLASS: eco class
+SEAT NUMBER: 1
+GATE NUMBER: 4
+
+-----------------------------------
+LOADED PASSENGER
+PASSENGER DATA:
+Sebatian Bak; ID: 5 Age: 23
+FLGIHT NUM: 1; CLASS: Economic
+Place number: 2
+Suitcase weight: 0; Carry on weight: 0
+
+
+Seat reserved
+-----------------------------------
+BOARDING PASS
+PASSENGER ID: 5
+FLIGHT NUMBER: 1
+SEAT CLASS: eco class
+SEAT NUMBER: 2
+GATE NUMBER: 4
+
+-----------------------------------
+LOADED PASSENGER
+PASSENGER DATA:
+Janusz Szlachcic; ID: 6 Age: 40
+FLGIHT NUM: 1; CLASS: Economic
+Place number: 3
+Suitcase weight: 0; Carry on weight: 0
+
+
+Seat reserved
+-----------------------------------
+BOARDING PASS
+PASSENGER ID: 6
+FLIGHT NUMBER: 1
+SEAT CLASS: eco class
+SEAT NUMBER: 3
+GATE NUMBER: 4
+
+-----------------------------------
+
+-----------------------------------
+SIMULATION
+-----------------------------------
+Time interval number: 1
+Clerk number: 1
+It's is turn of the Passenger:
+PASSENGER DATA:
+FNAME Klopotek; ID: 491 Age: 61
+FLGIHT NUM: 1; CLASS: Economic
+Place number: 52
+Suitcase weight: 0; Carry on weight: 0
+
+
+Passenger successfully boarded.
+Ticket price: 5
+-----------------------------------
+Checking departure gate number for flight id 1
+Gate number: 4
+-----------------------------------
+Time interval number: 2
+Clerk number: 1
+It's is turn of the Passenger:
+PASSENGER DATA:
+Wsciekly Bak; ID: 716 Age: 21
+FLGIHT NUM: 112; CLASS: Economic
+Place number: 2
+Suitcase weight: 0; Carry on weight: 0
+
+
+Passenger successfully boarded.
+Ticket price: 130
+-----------------------------------
+Passenger with id: 716
+has requested their flight params:
+FLIGHT PARAMETERS:
+FLIGHT NUMBER: 112
+DEPARTURE TIME: 2000.01.02-10:00:00
+DEPARTURE PLACE: RADOM
+LANDING TIME: 2000.01.02-11:00:00
+DESTINATION: BRZYDGOSZCZ
+BUSINESS SEATS NUMBER: 0
+BUSINESS SEAT PRICE: 300
+ECO SEATS NUMBER: 2
+ECO SEAT PRICE: 130
+
+-----------------------------------
+Time interval number: 3
+Clerk number: 1
+It's is turn of the Passenger:
+PASSENGER DATA:
+Janusz Kowalski; ID: 894 Age: 35
+FLGIHT NUM: 112; CLASS: Business
+Place number: 0
+Suitcase weight: 0; Carry on weight: 0
+
+
+Passenger successfully boarded.
+Ticket price: 300
+-----------------------------------
+Passenger with id: 894
+has requested their flight params:
+FLIGHT PARAMETERS:
+FLIGHT NUMBER: 112
+DEPARTURE TIME: 2000.01.02-10:00:00
+DEPARTURE PLACE: RADOM
+LANDING TIME: 2000.01.02-11:00:00
+DESTINATION: BRZYDGOSZCZ
+BUSINESS SEATS NUMBER: 0
+BUSINESS SEAT PRICE: 300
+ECO SEATS NUMBER: 2
+ECO SEAT PRICE: 130
+
+-----------------------------------
+Time interval number: 4
+Clerk number: 1
+It's is turn of the Passenger:
+PASSENGER DATA:
+Jan Janusz; ID: 547 Age: 68
+FLGIHT NUM: 311; CLASS: Business
+Place number: 0
+Suitcase weight: 0; Carry on weight: 0
+
+
+Passenger successfully boarded.
+Ticket price: 0
+-----------------------------------
+Checking departure gate number for flight id 311
+Gate number: 3
+-----------------------------------
+Time interval number: 5
+Clerk number: 1
+It's is turn of the Passenger:
+PASSENGER DATA:
+FNAME Bak; ID: 35 Age: 16
+FLGIHT NUM: 1; CLASS: Economic
+Place number: 41
+Suitcase weight: 0; Carry on weight: 0
+
+
+Passenger successfully boarded.
+Ticket price: 5
+-----------------------------------
+Passenger with id: 35
+has requested their boarding pass:
+BOARDING PASS
+PASSENGER ID: 35
+FLIGHT NUMBER: 1
+SEAT CLASS: eco class
+SEAT NUMBER: 41
+GATE NUMBER: 4
+
+-----------------------------------
+Time interval number: 6
+Clerk number: 1
+It's is turn of the Passenger:
+PASSENGER DATA:
+Adam Bomba; ID: 729 Age: 90
+FLGIHT NUM: 1; CLASS: Business
+Place number: 34
+Suitcase weight: 0; Carry on weight: 0
+
+
+Passenger successfully boarded.
+Ticket price: 10
+-----------------------------------
+Passenger with id: 729
+has requested their flight params:
+FLIGHT PARAMETERS:
+FLIGHT NUMBER: 1
+DEPARTURE TIME: 2000.01.09-15:30:00
+DEPARTURE PLACE: WARSAW
+LANDING TIME: 2000.01.09-17:00:00
+DESTINATION: BEKAS
+BUSINESS SEATS NUMBER: 40
+BUSINESS SEAT PRICE: 10
+ECO SEATS NUMBER: 60
+ECO SEAT PRICE: 5
+
+-----------------------------------
+Time interval number: 7
+Clerk number: 1
+It's is turn of the Passenger:
+PASSENGER DATA:
+FNAME Bak; ID: 840 Age: 56
+FLGIHT NUM: 2; CLASS: Economic
+Place number: 1
+Suitcase weight: 0; Carry on weight: 0
+
+
+Passenger successfully boarded.
+Ticket price: 130
+-----------------------------------
+Checking departure gate number for flight id 2
+Gate number: 4
+-----------------------------------
+Time interval number: 8
+Clerk number: 1
+It's is turn of the Passenger:
+PASSENGER DATA:
+Tytanowy Bak; ID: 82 Age: 18
+FLGIHT NUM: 311; CLASS: Business
+Place number: 0
+Suitcase weight: 0; Carry on weight: 0
+
+
+Passenger successfully boarded.
+Ticket price: 0
+-----------------------------------
+Checking departure gate number for flight id 311
+Gate number: 3
+-----------------------------------
+Time interval number: 9
+Clerk number: 1
+It's is turn of the Passenger:
+PASSENGER DATA:
+name Bomba; ID: 673 Age: 6
+FLGIHT NUM: 2; CLASS: Economic
+Place number: 2
+Suitcase weight: 0; Carry on weight: 0
+
+
+Passenger successfully boarded.
+Ticket price: 130
+-----------------------------------
+Passeger with id: 491
+has successfully changed seat
+PASSENGER DATA:
+FNAME Klopotek; ID: 491 Age: 61
+FLGIHT NUM: 1; CLASS: Business
+Place number: 14
+Suitcase weight: 0; Carry on weight: 0
+
+
+-----------------------------------
+Time interval number: 10
+Clerk number: 1
+It's is turn of the Passenger:
+PASSENGER DATA:
+Sebatian surname; ID: 636 Age: 61
+FLGIHT NUM: 1; CLASS: Economic
+Place number: 12
+Suitcase weight: 0; Carry on weight: 0
+
+
+Passenger successfully boarded.
+Ticket price: 5
+-----------------------------------
+Passenger with id: 636
+has requested their boarding pass:
+BOARDING PASS
+PASSENGER ID: 636
+FLIGHT NUMBER: 1
+SEAT CLASS: eco class
+SEAT NUMBER: 12
+GATE NUMBER: 4
+
+-----------------------------------
+
